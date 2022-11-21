@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Map1_Village_tilemap.tres" type="TileSet" id=1]
-[ext_resource path="res://Map3_KnightVault.tscn" type="PackedScene" id=2]
 
 [node name="Map" type="Node2D"]
 
@@ -22,6 +21,3 @@ tile_data = PoolIntArray( 262173, 536870986, 0, 327685, 536870959, 0, 327690, 53
 __meta__ = {
 "_editor_description_": ""
 }
-
-[node name="Map3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 129, 1390 )
